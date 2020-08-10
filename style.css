@@ -1,0 +1,73 @@
+body {
+   font-size: 24px;
+   letter-spacing: 2px;
+   text-align: center;
+}
+
+#map {
+   text-align: center;
+}
+
+#map div {
+   display: inline-block;
+   background: rgba(18, 30, 113, .5);
+   margin: 1px;
+   width: 30px;
+   height: 30px;
+   white-space: pre;
+   text-align: center;
+}
+
+#map p {
+   margin: 0 auto;
+   text-align: center;
+   color: transparent;
+}
+
+
+
+
+.wall {
+   background: rgba(18, 30, 43, .7) !important;
+}
+
+.been {
+   background: rgba(74, 44, 50, .5) !important;
+   transition: all .05s;
+}
+
+.current {
+      background: rgba(18, 120, 11, .5) !important;
+}
+
+.crown {
+      background: rgba(255, 187, 61, .7) !important;
+}
+button {
+   margin: 10px 0px;
+   background: rgba(98, 30, 43, .9);
+   border: none;
+   outline: none;
+   padding: 10px;
+   font-size: 15px;
+   text-transform: uppercase;
+   color: white;
+}
+
+button:first-child {
+   background: rgba(21, 87, 102, .9);
+   padding: 12px;
+   margin-right: 10px;
+}
+
+.btnOn {
+   background: rgba(98, 30, 43, .6);
+}
+
+#winMsg {
+   display: none;
+}
+
+.visible {
+   display: block !important;
+}
